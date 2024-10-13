@@ -1,0 +1,102 @@
+@import 'fonts.css';
+@import 'global.css';
+@import 'normalize.css';
+@import 'overall.css';
+@import 'variables.css';
+
+/*header*/
+
+.header{
+
+background-color: rgba(26, 26, 26, 0.8);
+color: #F6BD41;
+font-family: SF UI Display;
+font-size: 18px;
+font-weight: 700;
+}
+.logo{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.header__logo{
+  
+  padding-top: 12px;
+  margin-right: 2px;
+  
+
+}
+.main__title{
+  font-family: SF UI Display;
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+.playlists{
+  display: flex;
+}
+.playlist{
+  background-color: rgb(28, 28, 28);
+  width: 570px;
+  height: 540px;
+  border-radius: 4px;
+}
+
+.playlist:not(:last-child){
+  margin-right: 12px;
+}
+
+.playlist-1__header{
+  display: flex;
+  margin-bottom: 30px;
+}
+.playList__img{
+  margin-right: 24px;
+  padding-left: 36px;
+  padding-top: 24px;
+}
+
+.playlist-1__title{
+  padding-top: 30px;
+}
+.playlist-1__text{
+font-family: SF UI Display;
+font-size: 14px;
+font-weight: 500;
+margin-bottom: 23px;
+
+}
+.playList__TrackCount{
+font-family: SF UI Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgb(138, 138, 138);
+}
+
+.playlist__track{
+  display: flex;
+  margin-bottom: 24px;
+  padding-left: 36px;
+}
+
+.track__img{
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.playList__trakName{
+  display: flex;
+  flex-direction: column;
+  font-family: SF UI Display;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.track__audio{
+  height: 20px;
+}
+

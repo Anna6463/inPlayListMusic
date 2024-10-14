@@ -47,7 +47,7 @@ font-weight: 700;
   margin-right: 12px;
 }
 
-.playlist-1__header, .playlist-2__header{
+.playlist__header{
   display: flex;
   margin-bottom: 30px;
 }
@@ -57,10 +57,10 @@ font-weight: 700;
   padding-top: 24px;
 }
 
-.playlist-1__title, .playlist-2__title{
+.playlist__title{
     padding-top: 30px;
 }
-.playlist-1__text, .playlist-2__text{
+.playlist__text{
 font-family: SF UI Display;
 font-size: 14px;
 font-weight: 500;
@@ -94,9 +94,11 @@ color: rgb(138, 138, 138);
   font-family: SF UI Display;
   font-size: 12px;
   font-weight: 500;
+  
 }
 
 .track__audio{
-  height: 20px;
+  height: 30px;
+  padding-top: 10px;
 }
 

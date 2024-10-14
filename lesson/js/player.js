@@ -99,12 +99,12 @@ function renderPlaylist(playlistForRendering) {
 
 function renderPlaylistHeader(playlistForRendering) {
   let playList = document.createElement('div');
-  playList.className = (`playlists__playlist-${playlistForRendering.number} playlist`);
+  playList.className = (`playlists__playlist playlist`);
   getplaylists.appendChild(playList); 
 
 
   let getPlayListHeader = document.createElement('div');
-  getPlayListHeader.className = `playlist-${playlistForRendering.number}__header`;
+  getPlayListHeader.className = `playlist__header`;
   playList.appendChild(getPlayListHeader); 
 
   let playListImgElement = document.createElement("img");
@@ -113,11 +113,11 @@ function renderPlaylistHeader(playlistForRendering) {
   getPlayListHeader.appendChild(playListImgElement);
 
   let playListHeader = document.createElement('div');
-  playListHeader.className = `playlist-${playlistForRendering.number}__title`;
+  playListHeader.className = `playlist__title`;
   getPlayListHeader.appendChild(playListHeader);
 
   let playListTextElement = document.createElement('p');
-  playListTextElement.className = `playlist-${playlistForRendering.number}__text`;
+  playListTextElement.className = `playlist__text`;
   playListTextElement.innerHTML = 'PlayList';
   playListHeader.appendChild(playListTextElement);
 

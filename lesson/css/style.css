@@ -47,7 +47,7 @@ font-weight: 700;
   margin-right: 12px;
 }
 
-.playlist-1__header{
+.playlist-1__header, .playlist-2__header{
   display: flex;
   margin-bottom: 30px;
 }
@@ -57,10 +57,10 @@ font-weight: 700;
   padding-top: 24px;
 }
 
-.playlist-1__title{
-  padding-top: 30px;
+.playlist-1__title, .playlist-2__title{
+    padding-top: 30px;
 }
-.playlist-1__text{
+.playlist-1__text, .playlist-2__text{
 font-family: SF UI Display;
 font-size: 14px;
 font-weight: 500;

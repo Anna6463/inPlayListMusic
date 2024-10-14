@@ -53,7 +53,7 @@ let playlist_2 = {
       coverImageUrl: "/img/artict_2-1.png",
       artistName: "Public Enemy",
       title: "Fight the Power",
-      fileUrl: "Emenem_-_Rap_God.mp3",
+      fileUrl:  "Emenem_-_Rap_God.mp3",
       isHot: false,
     },
     {
